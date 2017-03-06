@@ -1,1 +1,1 @@
-### hm2grafana - Send HM data to Graphite
+# hm2grafana - Send HM data to Graphite
