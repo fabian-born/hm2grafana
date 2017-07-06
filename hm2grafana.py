@@ -11,7 +11,7 @@ import logging
 global timestamp
 timestamp = int(time.time())
 LOG_FILENAME = 'log/hm2grafana.log'
-logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", filename='./log/hm2grafana.log', filemode='w')
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", filename='/home/fabian/hm/hm2grafana/log/hm2grafana.log', filemode='w')
 
 
 def send2graphite(graphitepath,value,timestamp):
